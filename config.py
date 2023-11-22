@@ -10,6 +10,8 @@ COLORS = {
     "Blue": (0, 0, 255)
 }
 
+a = False
+
 c = {
     "Russia": [9000, 0.89]
 }

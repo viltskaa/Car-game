@@ -1,4 +1,0 @@
-CONFIG           i3
-a                i5
-lol              f10.912
-color            c0.100.90

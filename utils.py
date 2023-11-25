@@ -1,10 +1,7 @@
 import random
 import math
-
-from pygame.sprite import Group
+import pygame
 from Sprites.MapSprite import Wall, Ground
-
-import Sprites.MapSprite
 
 
 def get_random_color():
@@ -37,4 +34,5 @@ def generate_walls(__map):
             __map[y].add(wall)
 
 
-
+def generate_point(a, b, c, d):
+    return random.randint(a, b), random.randint(c, d)

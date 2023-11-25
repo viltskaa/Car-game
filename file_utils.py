@@ -68,3 +68,12 @@ def write_json(obj: dict) -> bool:
         return True
     except FileNotFoundError as e:
         return False
+
+
+def read_json():
+    try:
+        with open("saves/save.json", "r") as config:
+            return json.load(config)
+    except Exception as e:
+        return None
+
